@@ -102,7 +102,7 @@ export default function App() {
                 <div
                   className={`text-gray-300 bg-blue-50 text-sm flex flex-col md:flex-row items-center gap-x-4 cursor-pointer p-2 hover:bg-light-white rounded-md ${
                     item.space ? 'mt-8' : 'mt-2'
-                  }`}
+                  } `}
                   key={index}
                 >
                   {Icon && (
